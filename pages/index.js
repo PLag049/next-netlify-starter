@@ -4,15 +4,20 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-   <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <body>
-    <h1 class="border">Абоба</h1>
-  </body>
-</html>
 
+<div className="container">
+    <Head>
+      <title>Next.js Starter!</title>
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
+
+    <main>
+      <Header title="Welcome to my app!" />
+      <p className="description">
+        Get started by editing <code>pages/index.js</code>
+      </p>
+    </main>
+
+    <Footer />
+  </div>
 }
